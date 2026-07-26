@@ -1,0 +1,404 @@
+body{
+    margin: 20px;
+    background-color: whitesmoke;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#qis{
+    text-align: center;
+    font-family: "Georgia" , sans-serif;
+    border-style: solid;
+    border-color: #654321;
+    background-color: #654321;
+    color: white;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #654321;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color:  #654321;
+}
+
+.navbar li{
+    float: left;
+}
+
+
+footer{
+    list-style-type: none;
+    background-color: #654321;
+    padding: 3px;
+    margin: 0px;
+    overflow: hidden;
+    color: white;
+}
+
+.expjog{
+    font-size: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+ol{
+    font-size:20px;
+}
+
+.space{
+    margin-top: 100px;
+}
+
+.caption{
+    margin-left:5px; 
+    font-size:40px;
+    margin-top: -50px;
+}
+
+.sizequote{
+    margin-top:-70px;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+    color: brown;
+}
+
+.font40{
+    font-size: 20px;
+}
+
+.space2{
+    margin-left: 200px;  
+}
+
+.space3{
+  margin-left:300px;
+}
+
+.marginpicture{
+    margin-left:20px;
+}
+
+.captionamazonright{
+    font-size: 25px;
+    margin-left: 300px;
+    color: black;
+    background-color: beige;
+    width:250px;
+}
+
+.captionamazonleft{
+    font-size: 25px;
+    margin-left: 200px; 
+    color: black;
+    background-color: beige;
+    width:250px;
+}
+
+.font30{
+    font-size: 30px;
+}
+
+.menuCaption{
+    margin:0 30px;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.gapbetween{
+    margin-top: 50px;
+}
+
+.captionTip{
+    margin-left: 30px;
+    width: 500px;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: gold;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 50px;
+    line-height: 30px;
+}
+
+body{
+    background-image: url(beigebackground.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 17px;
+    color: white;
+}
+
+.p7{
+    border-style: dashed;
+    background-color: black;
+    line-height: 30px;
+}
+
+#p2{
+    border-style: dashed;
+}
+
+#p4{
+    border-style: ridge;
+    border-width: 10px;
+    border-color: gold;
+    border-radius: 10px;
+    background-color: beige;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.imageBorder{
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: gold;
+}
+
+.imageBorder2{
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.imageBorder3{
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: red;
+}
+
+.captionIG{
+    width: 300px;
+}
+.expCelebre{
+    border-style: dashed;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: gold;
+    background-color: beige;
+    line-height: 40px;
+    font-size: 20px;
+   
+} 
+.captionAvantage{
+    margin-left: 170px;
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: gold;
+    background-color: beige;
+    width:800px;
+}
+.fontTitle{
+    font-size: 40px;
+    line-height: 50px;
+    color: black;
+}
+.fontTitle2{
+    font-size: 40px;
+    margin-top: -30px;
+    color: black;
+}
+
+.navbar{
+    color: white;
+}
+
+.right{
+    grid-column: 3;
+    justify-self: right;
+}
+
+.center{
+    grid-column: 2;
+    justify-self: center;
+}
+
+
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr auto 1fr ;
+}
+/*This is from CHATGPT--*/
+@media (max-width: 992px) {
+
+  main, section, table, .captionAvantage, .captionTip {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .captionAvantage, .captionTip {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  td, img {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .captionamazonleft, .captionamazonright {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menuCaption a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 18px;
+  }
+
+  .fontTitle, .fontTitle2 {
+    font-size: 32px;
+  }
+
+  .captionTip {
+    width: auto;
+  }
+
+  .space2, .space3 {
+    margin: 20px auto;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
+.avantage-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/*--This is from CHATGPT__*/
+/* --- Phone (max-width: 480px) --- */
+@media (max-width: 480px) {
+
+  body {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  h1#qis {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  nav.navbar ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav.navbar li {
+    float: none;
+    width: 100%;
+  }
+
+  .menuCaption a {
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .captionAvantage, .captionTip {
+    width: auto;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  ol {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .fontTitle, .fontTitle2 {
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  .captionamazonleft, .captionamazonright {
+    font-size: 18px;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .p7, #p4 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 10px;
+  }
+
+  footer {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .avantage-images { flex-wrap: wrap; }
+  .avantage-images img { max-width: 30%; height: auto; }
+}
+
+@media (max-width: 480px) {
+  .avantage-images { flex-direction: column; align-items: center; }
+  .avantage-images img { max-width: 80%; }
+}
+

@@ -1,0 +1,232 @@
+body{
+    background-image: url("https://wallpapercave.com/wp/wp7426321.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+
+.titre {
+text-align: center;
+}
+            
+.titre {
+    text-align: center;
+    color: darkorange;
+    font-family: "Georgia", serif;
+    text-shadow: 1px 1px 4px black;
+}
+
+#MENU {
+    border: 2px solid #FFB84D;   
+    border-collapse: collapse;
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    background-color: #013220;       
+    color: #FFA500;               
+    border-radius: 8px;           
+    overflow: hidden;             
+}
+
+#MENU td {
+    padding: 12px 20px;
+}
+
+#MENU a {
+  text-decoration: none;
+  color: #FFA500;              
+  font-weight: bold;
+  display: block;
+}
+
+#MENU a:hover {
+  background-color: #FFA500;    
+  color: #222;                  
+  transition: 0.3s;
+}
+
+.image, .magnus {
+transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.image, .magnus {
+  display: block;           
+  margin: 20px auto;         
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 8px;        
+}
+
+.image:hover, .magnus:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(255, 140, 0, 0.6);
+}  
+
+.en-savoir-plus{
+    color: #E6E6E6
+}
+    
+.image {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-style: double;
+    border-width: 10px;  
+    border-color: black;
+    box-shadow: 0px 4px 10px rgba(0,0,0,1.5);
+  }
+
+.Info-table {
+    border: 4px double black;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 12px;
+}
+
+.Info-table tr:nth-child(even) td:nth-child(odd),.Info-table tr:nth-child(odd) td:nth-child(even) {
+    background-color: chocolate;
+    color: white;
+}
+
+.Info-table   tr:nth-child(even) td:nth-child(even),.Info-table tr:nth-child(odd) td:nth-child(odd) {
+        background-color: black;
+        color: white;
+}
+
+/* j'ai cherche sur Internet*/
+.comment{
+    text-align: center;
+}
+       
+.image:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+footer {
+  text-align: center;
+  background-color: #111;
+  color: #ffcc66;
+  padding: 15px;
+  font-style: italic;
+  margin-top: 40px;
+}
+
+.chess {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-style: double;
+    border-width: 10px;  
+    border-color: black;
+}
+
+.player-card {
+    color: #FFA500;                
+    background-color: #222;        
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #FFB84D;   
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(255,140,0,0.4);
+    transition: transform 0.3s ease;
+}
+
+.player-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(255,140,0,0.6);
+}
+
+.player-img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;           /* round image */
+  border: 3px solid #FFA500;
+  margin-bottom: 15px;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: "Georgia" , sans-serif;
+    border-style: solid;
+    border-color: #654321;
+    background-color: #654321;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #654321;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color:  #654321;
+}
+
+.navbar li{
+    float: left;
+}
+
+footer{
+    list-style-type: none;
+    background-color: #654321;
+    padding: 3px;
+    margin: 0px;
+    overflow: hidden;
+    color: white;
+}
+
+.navbar{
+    color: white;
+}
+
+.right{
+    grid-column: 3;
+    justify-self: right;
+}
+
+.center{
+    grid-column: 2;
+    justify-self: center;
+}
+
+.left{
+    grid-column: 1;
+    justify-self: auto;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr auto 1fr ;
+}

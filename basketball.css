@@ -1,0 +1,142 @@
+body{
+    margin: 20px;
+    background-color: whitesmoke;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: "Georgia" , sans-serif;
+    border-style: solid;
+    border-color: #654321;
+    background-color: #654321;
+    color: white;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #654321;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color:  #654321;
+}
+
+.navbar li{
+    float: left;
+}
+
+body{
+    background-image: url(images/image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+ul{
+    color: white;
+}
+
+.regles{
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 10px;
+}
+
+h4{
+    color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    color: white;
+}
+
+.player{
+    text-align: center;
+}
+
+.nom{
+    border-style: ridge;
+    text-align: center;
+    outline-style: groove;
+    border-width: 3px;
+    border-color: #654321;
+    border-radius: 8px;
+    width: 80%;
+    margin: 20px auto;
+    color: white;
+}
+
+ol{
+    color: white;
+}
+
+footer{
+    list-style-type: none;
+    background-color: #654321;
+    padding: 3px;
+    margin: 0px;
+    overflow: hidden;
+    color: white;
+}
+
+.navbar{
+    color: white;
+}
+
+.right{
+    grid-column: 3;
+    justify-self: right;
+}
+
+.center{
+    grid-column: 2;
+    justify-self: center;
+}
+
+.left{
+    grid-column: 1;
+    justify-self: auto;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr auto 1fr ;
+}

@@ -1,0 +1,166 @@
+.expjog{
+    font-size: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+ol{
+    font-size:30px;
+}
+
+.space{
+    margin-top: 100px;
+}
+
+.caption{
+    margin-left:5px; 
+    font-size:50px;
+    margin-top: -30px;
+}
+
+.sizequote{
+    margin-top:-100px;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive ;
+    color: brown;
+}
+
+.font40{
+    font-size: 40px;
+}
+
+.space2{
+    margin-left: 350px;  
+}
+.space3{
+  margin-left:500px;
+}
+.marginpicture{
+    margin-left:150px;
+}
+
+.captionamazonright{
+    font-size: 30px;
+    margin-left: 500px;
+    color: black;
+    background-color: beige;
+    width:250px;
+}
+
+.captionamazonleft{
+    font-size: 30px;
+    margin-left: 350px; 
+    color: black;
+    background-color: beige;
+    width:250px;
+}
+
+.font30{
+    font-size: 30px;
+}
+
+.menuCaption{
+    margin:0 30px;
+    font-size: 30px;
+    padding: 0 150px;   
+}
+
+.gapbetween{
+    margin-top: 50px;
+}
+
+.captionTip{
+    margin-left: 250px;
+    width: 500px;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: gold;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 50px;
+}
+
+body{
+    background-image: url(beigebackground.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+}
+
+.p7{
+    border-style: dashed;
+    background-color: black;
+}
+
+#p2{
+    border-style: dashed;
+}
+
+#p4{
+    border-style: ridge;
+    border-width: 10px;
+    border-color: gold;
+    border-radius: 10px;
+    background-color: beige;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.imageBorder{
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: gold;
+}
+
+.imageBorder2{
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.imageBorder3{
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: red;
+}
+
+.captionIG{
+    width: 500px;
+    
+}
+.expCelebre{
+    border-style: dashed;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: gold;
+    background-color: beige;
+} 
+.captionAvantage{
+    margin-left: 500px;
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: gold;
+    background-color: beige;
+    width:800px;
+} 
+
+
+
+
+
